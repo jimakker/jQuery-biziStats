@@ -1,7 +1,7 @@
 jQuery-biziStats
 ================
 
-biziStats jQuery plugina. Donostiako bizikleta publikoen geltokien informazia zerrenda batean erakusten du.
+biziStats jQuery plugina. Donostiako bizikleta publikoen geltokien informazia zerrenda batean erakusten du [bizistats.info](http://bizistats.info)-ri eskerrak.
 
 
 Erabili
