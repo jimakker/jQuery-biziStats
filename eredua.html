@@ -1,0 +1,16 @@
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.8.2.min.js"></script>
+<script type="text/javascript" src="jquery.biziStats.js"></script>
+<h1>Guztiak</h1>
+<pre>$('#geltokiak').biziStats();</pre>
+<div id="geltokiak"></div>
+<h1>Geltoki bat</h1>
+<pre>$('#geltokia').biziStats({stationId:2});</pre>
+<div id="geltokia"></div>
+<h1>Minuturo eguneratzen</h1>
+<pre>$('#refresh').biziStats({refresh:true});</pre>
+<div id="refresh"></div>
+<script>
+$('#geltokiak').biziStats();
+$('#geltokia').biziStats({stationId:2});
+$('#refresh').biziStats({refresh:true});
+</script>
