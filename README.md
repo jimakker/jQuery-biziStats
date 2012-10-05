@@ -15,4 +15,5 @@ Erabili
 	* refresh (Boolean) true bada minuturo eguneratuko da plugina
 	* stationId (Integer) 1-9, geltoki bakar baten informazioa nahi bada
 	* `$('#nireID').biziStats({refresh:true,staionId:5})`
+
 eredua.html fitxategian erabilera ereduak daude
