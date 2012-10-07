@@ -4,13 +4,17 @@
 <pre>$('#geltokiak').biziStats();</pre>
 <div id="geltokiak"></div>
 <h1>Geltoki bat</h1>
-<pre>$('#geltokia').biziStats({stationId:2});</pre>
+<pre>$('#geltokia').biziStats({stationIDs:[2]});</pre>
 <div id="geltokia"></div>
+<h1>Geltoki batzuk</h1>
+<pre>$('#geltoki-batzuk').biziStats({stationIDs:[4,5,6,7]});</pre>
+<div id="geltoki-batzuk"></div>
 <h1>Minuturo eguneratzen</h1>
 <pre>$('#refresh').biziStats({refresh:true});</pre>
 <div id="refresh"></div>
 <script>
 $('#geltokiak').biziStats();
-$('#geltokia').biziStats({stationId:2});
+$('#geltokia').biziStats({stationIDs:[2]});
+$('#geltoki-batzuk').biziStats({stationIDs:[4,5,6,7]});
 $('#refresh').biziStats({refresh:true});
 </script>
