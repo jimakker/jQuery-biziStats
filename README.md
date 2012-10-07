@@ -14,6 +14,6 @@ Erabili
 * Parametro batzuk pasa daitezke objektu eran nahi bada:
 	* refresh (Boolean) true bada minuturo eguneratuko da plugina
 	* stationId [Integer] 1-9, geltokien IDak Array gisa, geltoki bat(zuen) informazioa nahi bada [1] edo [3,6,8],...
-	* `$('#nireID').biziStats({refresh:true,staionIDs:[5,9]})`
+	* `$('#nireID').biziStats({refresh:true,stationIDs:[5,9]})`
 
 eredua.html fitxategian erabilera ereduak daude
